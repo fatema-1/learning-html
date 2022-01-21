@@ -7,7 +7,20 @@
     <style>
         body{
             background-color: rgb(33, 232, 23);
+        } 
+        table{
+                width: 300px;
+                height: 200px;
+                border-collapse:  collapse;
         }
+        td,th{
+                border: 1px solid black;
+        }
+        tr{
+                text-align: center;
+        }
+
+
     </style>
     <link rel="stylesheet" href="style.css">
     <title>Fatema Islam</title>
@@ -42,12 +55,15 @@
     <div>
     <h2>This is strong and underline tag</h2><hr>
             <strong><u>This is underline text and bold text.</u></strong><br>
-    </div>   
+    </div>
+    
+    
     <div>
     <h2>This is sub and sup tag</h2><hr>
             (a+b)<sup>2</sup><br>
              H<sub>2</sub><br>
     </div> 
+
     
     <del>hallo</del><br>
     <b>Number system</b><br>
@@ -62,12 +78,238 @@
     1. I am &nbsp; &nbsp; &nbsp; Fatema Islam <br>
     2. &copy;copyright <br>
     3. &lt;body&gt; <!-- I have use entity here -->
+
+
     <h2>pre tag</h2>
     <pre>
     I love you
             from my heart
     but still I believe
             you are a selfish bird.</pre>
+
+
+        <H2>Symbol and emoji</H2>
+        <h3>Unicode Character Table</h3> <h2>and</h2>
+        <h3>w3school emoji</h3>
+        😊😊😊😊😊😊
+        &#x231A;<br><br>
+
+
+        <h2>Html font style</h2>
+        <h1 style="background-color: red; font-size: 25px;">I love Bangladesh</h1>
+
+
+        <h2>Ordered list</h2>
+        <h3>Name of courses</h3>
+        <ol type="A">
+                <li>Operating system</li>
+                <li>Computer Networks</li>
+                <li>ICT</li>
+                <li>Theory of compution</li>
+                <li>HTML</li>
+        </ol>
+
+
+        <h3>Unordered list</h3>
+        <ul type="disc">
+                <li>Operating system</li>
+                 <li>Computer Networks</li>
+                <li>ICT</li>
+                <li>Theory of computation</li>
+                <li>HTML</li>
+        </ul>
+
+
+        <h2>Image tag</h2>
+                <img src="elu.png" height="350" width="450px" border="20px" title="ELONMUSK" align="center" hspace="250" vspace="100" alt="sorry! Image is not found">
+                                                                                        
+
+        <h2>iframe testing</h2>
+                <iframe src="https://www.studywithanis.com/" frameborder="0" height="350px" width="600px"></iframe>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0ZRqShZBsKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        <h2>Hyperlink</h2>
+
+        <ol>
+                <li><a href="https://www.google.com/" target="blank">Google</a></li>
+        <br>
+                <li><a href="file:///C:/Users/user/Desktop/first-programme/index.html">My Website</a></li>
+        </ol>
+
+        <h2>div tag</h2>
+                <div id="div1" style="background-color: green; height: 200px; width: 100%;">
+                        <p>This is a paragraph inside div1</p>
+                </div> 
+
+                <div id="div2" style="background-color: rgb(216, 53, 16); height: 200px; width: 100%;">
+                        <p>This is a paragraph inside div1</p>
+                </div> 
+
+                <div id="div3" style="background-color: rgb(223, 25, 180); height: 200px; width: 100%;">
+                        <p>This is a paragraph inside div1</p>
+                </div> 
+
+        <h2>Table</h2>
+        <table>
+                <caption>World Top Leader</caption>
+                <thead>
+                        <tr>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Id</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                                <td>Fatema Islam</td>
+                                <td>16</td>
+                                <td>8956</td>
+                        </tr>
+                        <tr>
+                                <td>Anisul Islam</td>
+                                <td>32</td>
+                                <td>8957</td>
+                        </tr>
+                        <tr>
+                                <td>Elon Musk</td>
+                                <td>50</td>
+                                <td>8958</td>
+                        </tr>
+                        <tr>
+                                <td>Hasan Fahim</td>
+                                <td>28</td>
+                                <td>8959</td>
+                        </tr>
+                </tbody>
+        </table>
+        <h2>Colspan And rowspan</h2>
+        <table border="1px solid black">
+                <thead>
+                        <tr>
+                                <th>Name</th>
+                                <th colspan="2">Roll</th>
+                        </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                                <td>Fatema Islam</td>
+                                <td>15</td>
+                                <td rowspan="2">8954<td>
+                        </tr> 
+                        <tr>
+                                <td>Elon Musk</td>
+                                <td>16</td>
+ 
+                        </tr>                      
+                </tbody>
+
+        </table>
+
+        <header>
+                <h2>Accessible Table</h2>
+        </header>
+        <main>
+                <table>
+                        <caption>Student Info</caption>
+                        <colgroup>
+                                <col span="3"style="background-color:burlywood" />
+                        </colgroup>
+                      <thead>
+                              <tr>
+                                      <th scope="col">Id</th>
+                                      <th scope="col">Name</th>
+                                      <th scope="col">GPA</th>
+
+                              </tr>
+                      </thead>
+                      <tbody>
+                                <tr>
+                                      <th scope="row">56</td>
+                                      <td>Fatema</td>
+                                      <td>5657</td>                              
+                                </tr>
+                                <tr>
+                                        <td scope="row">57</td>
+                                        <td>Elon</td>
+                                        <td>5698</td>                              
+                                  </tr>
+                      </tbody>
+                </table>    
+
+
+                <h2>Registration Form</h2>
+                <div>
+                        <label for="email">FullName</label> 
+                        <input type="text" name="fullname" id="fullname" required>
+                </div> <br>
+
+                <div>
+                        <label for="email">E-mail: </label> 
+                        <input type="email" name="email" id="email">
+                </div> <br>
+
+                <div>
+                        <label for="Password">Password: </label> 
+                        <input type="password" name="password" id="password">
+                </div> <br>
+
+                <div>
+                        <label for="dob">Date of Birth: </label> 
+                        <input type="date" name="dob" id="dob">
+                </div> <br>
+
+                <div>
+                        <label for="Photo">Choose your photo: </label> 
+                        <input type="file" name="photo" id="photo">
+                </div> <br>
+
+                <div>
+                        <label for="gender">Gender: </label> 
+                        <input type="radio"  name="gender" id="gender" value="male">Male
+                        <input type="radio"  name="gender" id="gender" value="Female">Female
+                </div> <br>
+
+                <div>
+                        <label for="Religion">Religion: </label> 
+                        <input type="checkbox"  name="C1" id="muslim" value="islam">Islam
+                        <input checked type="checkbox"  name="C1" id="hindu" value="hindu">Hindu
+                </div> <br> 
+
+                <div>
+                        <label for="department">department: </label> 
+                        <select name="department" id="">
+                                <option value="cse">CSE</option>
+                                <option value="eee">EEE</option>
+                                <option value="llb" selected>LLB</option>
+                        </select>
+                </div>
+
+                <div>
+                        <label for="message">message: </label>
+                        <textarea name="" id="" cols="50" rows="20"></textarea>
+                </div>
+
+                <div>
+                        <input type="submit" value="Register">
+                        <input type="reset" value="clear">
+                </div>
+
+                <h2>Audio testing</h2>
+                        <!-- <audio src="">
+                        <source src="">
+                        </audio> -->
+                
+                <h2>Video testing</h2>        
+                        <!-- <video height="400" width="400" controls>
+                                <source src="">
+                        </video> -->
+
+        
+        </form>
+
+        
 
 
 </body>
